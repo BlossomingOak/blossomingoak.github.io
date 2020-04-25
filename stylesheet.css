@@ -1,0 +1,45 @@
+header {
+    max-width: 100%;
+    background-color: #002147;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    
+}
+main {
+    display: block;
+    align: center;
+}
+footer {
+    background-color: #002147;
+    color: lightgrey;
+    align-content: center;
+
+}
+img {    
+    width: 30%;
+    border-radius: 5px;
+    float: right;
+}
+
+a {
+    color: rgb(3, 207, 207);
+}
+
+h3 {
+    margin-left: 400px;
+    font-size: 26px;
+}
+ul {
+    font-size: 16px;
+    margin-left: 300px;
+}
+ul a {
+    color: #002147;
+}
+body {
+    background-color: 
+    rgb(185, 250, 255);
+}
