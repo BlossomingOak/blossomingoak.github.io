@@ -73,7 +73,9 @@ h2 {
 }
 }
 @media (min-width: 60em){
-     
+     .header {
+      width: 100%;
+ }
     .lesson2 {
     max-width: 30%;
  }
