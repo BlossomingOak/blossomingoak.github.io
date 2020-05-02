@@ -89,6 +89,7 @@ h2 {
 .l2Header {
     grid-area: 1/1/3/4;
     text-align: left;
+    top-margin: -20px;
     
 }
 #hulu {
