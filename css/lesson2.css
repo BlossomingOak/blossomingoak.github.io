@@ -2,40 +2,15 @@
     max-width: 75%;
     
 }
-.lesson2Body {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 20% 10% 20% 10% 20% 10% 10%;
-}
 .l2Header {
-    grid-area: 1/1/2/2;
     text-align: left;
     
-}
-#hulu {
-    grid-area: 2/1/4/2; 
-    margin: 1vw;
-    
-    
-}
-#bing {
-    grid-area: 4/1/6/2;
-    margin: 1vw;
-}
-
-#wiki {
-    grid-area: 4/1/6/2;
-    margin: 10%;
-    align-items: center;
 }
 .wikimg {
     max-width: 75%;
     float: center;
 }
-footer {
-    grid-area: 6/1/7/2;
-    
-}
+
 p {
     font-size: 2.5vw;
 }
@@ -99,6 +74,9 @@ h2 {
 @media (min-width: 60em){
      
     .lesson2 {
+    max-width: 30%;
+ }
+    .wikimg {
     max-width: 30%;
     
 }
