@@ -5,7 +5,7 @@
 .lesson2Body {
     display: grid;
     grid-template-columns: 49% 2% 49%;
-    grid-template-rows: 15% 15% 15% 15% 15% 15% 7% 3%;
+    grid-template-rows: 15% 15% 15% 5% 15% 15% 15% 5%;
 }
 .l2Header {
     grid-area: 1/1/2/4;
@@ -23,7 +23,7 @@
     margin: 1vw;
 }
 #wiki {
-    grid-area: 4/1/7/4;
+    grid-area: 5/1/8/4;
     margin: 3vw;
 }
 footer {
