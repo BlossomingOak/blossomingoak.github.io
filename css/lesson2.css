@@ -1,24 +1,40 @@
 .lesson2 {
-    max-width: 30vw;
+    max-width: 50%;
+    
 }
 .lesson2Body {
     display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 15vw 15vw 15vw 15vw 15vw 15vw 10vw;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 10%;
 }
 header {
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/4;
+    text-align: center;
+    
 }
 #hulu {
     grid-area: 2/1/4/2; 
+    
+    
 }
 #bing {
-    grid-area: 2/2/4/3;
-
+    grid-area: 2/3/4/4;
+    
 }
 #wiki {
-    grid-area: 4/1/6/3;
+    grid-area: 4/1/7/4;
+    
 }
 footer {
-    grid-area: 7/1/8/3;
+    grid-area: 7/1/8/4;
+    
+}
+p {
+    font-size: 3vw;
+}
+h2 {
+    font-size: 3.5vw;
+}
+.link {
+    font-size: 3vw;
 }
