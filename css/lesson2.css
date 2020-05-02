@@ -87,29 +87,29 @@ h2 {
     grid-template-rows: 15% 15% 15% 15% 15% 20%;
 }
 .l2Header {
-    grid-area: 1/1/3/4;
+    grid-area: 1/1/2/4;
     text-align: left;
     top-margin: -20px;
     
 }
 #hulu {
-    grid-area: 3/1/7/2; 
+    grid-area: 2/1/6/2; 
     margin: 1vw;
     
     
 }
 #bing {
-    grid-area: 3/2/7/3;
+    grid-area: 2/2/6/3;
     margin: 1vw;
 }
 #wiki {
-    grid-area: 3/3/7/4;
+    grid-area: 2/3/6/4;
     margin: 10%;
     align-items: center;
 }
 
 footer {
-    grid-area: 8/1/9/4;
+    grid-area: 6/1/7/4;
     
 }
 p {
@@ -122,6 +122,6 @@ h2 {
     font-size: 3vw;
 }
  h1 {
-  font-size: 3vw;
+  font-size: 4vw;
  }
 }
