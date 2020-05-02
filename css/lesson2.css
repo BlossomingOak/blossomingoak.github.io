@@ -22,9 +22,17 @@
     grid-area: 2/3/4/4;
     margin: 1vw;
 }
+.inbetween {
+    grid-area: 4/1/5/4;
+}
 #wiki {
     grid-area: 5/1/8/4;
-    margin: 3vw;
+    margin: 10%;
+    align-items: center;
+}
+.wikimg {
+    max-width: 30%;
+    float: center;
 }
 footer {
     grid-area: 8/1/9/4;
