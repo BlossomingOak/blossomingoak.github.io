@@ -1,0 +1,24 @@
+.lesson2 {
+    max-width: 30vw;
+}
+.lesson2Body {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 15vw 15vw 15vw 15vw 15vw 15vw 10vw;
+}
+header {
+    grid-area: 1/1/2/3;
+}
+#hulu {
+    grid-area: 2/1/4/2; 
+}
+#bing {
+    grid-area: 2/2/4/3;
+
+}
+#wiki {
+    grid-area: 4/1/6/3;
+}
+footer {
+    grid-area: 7/1/8/3;
+}
