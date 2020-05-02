@@ -111,10 +111,6 @@ h2 {
     align-items: center;
 }
 
-footer {
-    grid-area: 6/1/7/4;
-    
-}
 p {
     font-size: 16px;
 }
