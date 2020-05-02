@@ -5,32 +5,33 @@
 .lesson2Body {
     display: grid;
     grid-template-columns: 49% 2% 49%;
-    grid-template-rows: 15% 15% 15% 15% 15% 15% 10%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 7% 3%;
 }
-header {
+.l2Header {
     grid-area: 1/1/2/4;
-    text-align: center;
+    text-align: left;
     
 }
 #hulu {
     grid-area: 2/1/4/2; 
+    margin: 1vw;
     
     
 }
 #bing {
     grid-area: 2/3/4/4;
-    
+    margin: 1vw;
 }
 #wiki {
     grid-area: 4/1/7/4;
-    
+    margin: 3vw;
 }
 footer {
-    grid-area: 7/1/8/4;
+    grid-area: 8/1/9/4;
     
 }
 p {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 h2 {
     font-size: 3.5vw;
