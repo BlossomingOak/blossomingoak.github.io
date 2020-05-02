@@ -33,7 +33,7 @@ h2 {
 .l2Header {
     grid-area: 1/1/2/4;
     text-align: left;
-    font-size: 4ew;
+    font-size: 4vw;
     
 }
 #hulu {
@@ -120,4 +120,7 @@ h2 {
 .link {
     font-size: 3vw;
 }
+ h1 {
+  font-size: 3vw;
+ }
 }
