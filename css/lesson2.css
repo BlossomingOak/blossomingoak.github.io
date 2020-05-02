@@ -1,4 +1,52 @@
-.lesson2 {
+ .lesson2 {
+    max-width: 75%;
+    
+}
+.lesson2Body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 20% 10% 20% 10% 20% 10% 10%;
+}
+.l2Header {
+    grid-area: 1/1/2/2;
+    text-align: left;
+    
+}
+#hulu {
+    grid-area: 2/1/4/2; 
+    margin: 1vw;
+    
+    
+}
+#bing {
+    grid-area: 4/1/6/2;
+    margin: 1vw;
+}
+
+#wiki {
+    grid-area: 4/1/6/2;
+    margin: 10%;
+    align-items: center;
+}
+.wikimg {
+    max-width: 75%;
+    float: center;
+}
+footer {
+    grid-area: 6/1/7/2;
+    
+}
+p {
+    font-size: 2.5vw;
+}
+h2 {
+    font-size: 3.5vw;
+}
+.link {
+    font-size: 3vw;
+}
+ @media (min-width: 32.5em) {   
+    .lesson2 {
     max-width: 50%;
     
 }
@@ -46,4 +94,51 @@ h2 {
 }
 .link {
     font-size: 3vw;
+}
+}
+@media (min-width: 60em){
+     
+    .lesson2 {
+    max-width: 30%;
+    
+}
+.lesson2Body {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 15% 20% 20% 20% 5%;
+}
+.l2Header {
+    grid-area: 1/1/2/4;
+    text-align: left;
+    
+}
+#hulu {
+    grid-area: 2/1/5/2; 
+    margin: 1vw;
+    
+    
+}
+#bing {
+    grid-area: 2/2/5/3;
+    margin: 1vw;
+}
+#wiki {
+    grid-area: 2/3/5/4;
+    margin: 10%;
+    align-items: center;
+}
+
+footer {
+    grid-area: 8/1/9/4;
+    
+}
+p {
+    font-size: 2.5vw;
+}
+h2 {
+    font-size: 3.5vw;
+}
+.link {
+    font-size: 3vw;
+}
 }
