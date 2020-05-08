@@ -1,7 +1,8 @@
 
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+    font-family: "Sansita", Ubuntu, sans-serif;
+    background-color: #bfc0c0;
 }
 
 /* phone or baseline views **************************/
@@ -23,6 +24,9 @@ main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial Black", Gadget, sans-serif
 }
 h1 {
     font-size: 2rem;
@@ -61,17 +65,26 @@ nav a:hover {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    
 }
 main article {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: #eeeeee;
+}
+#typography {
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eeeeee;
 }
 main picture {
 	display: none;
-	margin: 0.5rem;
+    margin: 0.5rem;
+    border-style: none;
 }
 
 footer {

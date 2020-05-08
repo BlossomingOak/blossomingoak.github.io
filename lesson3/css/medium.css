@@ -9,7 +9,9 @@
 		font-size: 1rem;
 	}
 	main {
-		grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        line-height: 1.2;
+
 	}
 	article:nth-child(3) {
 		grid-column: span 2;
@@ -27,6 +29,10 @@
     main,
     footer {
 	border-radius: 10px;
-}
+    }
+
+    #typography {
+        grid-area: 1/1/2/3;
+    }
 
 }
