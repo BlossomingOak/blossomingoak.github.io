@@ -1,4 +1,28 @@
-.lesson2 {
+ .lesson2 {
+    max-width: 75%;
+    
+}
+.l2Header {
+    text-align: left;
+ width: 100%;
+    
+}
+.wikimg {
+    max-width: 75%;
+    float: center;
+}
+
+p {
+    font-size: 2.5vw;
+}
+h2 {
+    font-size: 3.5vw;
+}
+.link {
+    font-size: 3vw;
+}
+ @media (min-width: 32.5em) {   
+    .lesson2 {
     max-width: 50%;
     
 }
@@ -10,6 +34,7 @@
 .l2Header {
     grid-area: 1/1/2/4;
     text-align: left;
+    font-size: 4vw;
     
 }
 #hulu {
@@ -46,4 +71,56 @@ h2 {
 }
 .link {
     font-size: 3vw;
+}
+}
+@media (min-width: 60em){
+     .header {
+      width: 100%;
+ }
+    .lesson2 {
+    max-width: 30%;
+ }
+    .wikimg {
+    max-width: 30%;
+    
+}
+.lesson2Body {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 15% 15% 15% 15% 15% 20%;
+}
+.l2Header {
+    grid-area: 1/1/2/4;
+    text-align: left;
+    top-margin: -20px;
+    
+}
+#hulu {
+    grid-area: 2/1/6/2; 
+    margin: 1vw;
+    
+    
+}
+#bing {
+    grid-area: 2/2/6/3;
+    margin: 1vw;
+}
+#wiki {
+    grid-area: 2/3/6/4;
+    margin: 10%;
+    align-items: center;
+}
+
+p {
+    font-size: 16px;
+}
+h2 {
+    font-size: 2.5vw;
+}
+.link {
+    font-size: 2vw;
+}
+ h1 {
+  font-size: 2.75vw;
+ }
 }
