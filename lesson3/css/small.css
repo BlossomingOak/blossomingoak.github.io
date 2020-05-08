@@ -1,0 +1,94 @@
+
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: #3a3335;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h1 {
+    font-size: 2rem;
+    color: #f9d522;
+}
+h2 {
+	color: #b03825;
+}
+
+nav {
+	background-color: #b03825;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #f9d522;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #f9d522;
+	color:#b03825;
+}
+.active {
+	color: white;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+main picture {
+	display: none;
+	margin: 0.5rem;
+}
+
+footer {
+	flex: 0 1 100%;
+    height: 2rem;
+    color: #f9d522;
+}
+a {
+    color: #3a3335;
+}
+.colorScheme {
+    max-width: 767px;
+    margin: auto;
+    box-shadow: 0 2px 15px #3a3335;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#colorScheme {
+    max-width: 100%;
+}
