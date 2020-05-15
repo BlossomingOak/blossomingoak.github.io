@@ -51,10 +51,10 @@ nav ul {
 .navigation li:first-child {
     display: block;
 }
-.navigation li {
+nav ul li {
     display: none;
 }
-.naviagition a {
+.navigation a {
     display: block;
     color: #f9d522;
     text-align: center;
@@ -78,6 +78,7 @@ footer {
 a {
     color: #3a3335;
 }
+
 .contentBox {
     text-align: center;
     display: block;
@@ -87,5 +88,8 @@ a {
     box-sizing: border-box;
 }
 .responsive li{
+    display: block;
+}
+.open li{
     display: block;
 }

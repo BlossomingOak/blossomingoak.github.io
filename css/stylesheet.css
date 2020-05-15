@@ -1,53 +1,64 @@
-header {
-    max-width: 100%;
-    background-color: #002147;
-    color: white;
+
+body {
+	font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
+    background-color: #bfc0c0;
 }
-h1 {
-    text-align: center;
-    font-size: 8vw;
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: #3a3335;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
     font-family: 'Rajdhani', sans-serif;
     
 }
-main {
-    display: block;
-    align-content: center;
-}
+
+header,
+main,
 footer {
-    background-color: #002147;
-    color: lightgrey;
-    align-content: center;
-
+	max-width: 767px;
+	margin: 0 auto;
 }
-#family {
-    text-align: center;
-    border-radius: 10px;
-    
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial Black", Gadget, sans-serif
 }
-img {   
-    width: 300px;
-    float: center;
-    padding: 15px;
-    
+h1 {
+    font-size: 2rem;
+    color: #f9d522;
+}
+h2 {
+	color: #b03825;
 }
 
+
+
+.active {
+	color: white;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    
+}
+
+footer {
+	flex: 1 1 100%;
+    height: 2rem;
+    color: #f9d522;
+    justify-content: center;
+}
 a {
-    color: rgb(3, 207, 207);
+    color: #3a3335;
+    font-size: 2em;
+    font-style: normal;
 }
- 
-h3 {
-    padding-left: 5%;
-    font-size: 26px;
-}
-ul {
-    padding-left: 10%;
-    font-size: 16px;
-    margin-left: 300px;
-}
-ul a {
-    color: #002147;
-}
-body {
-    background-color: 
-    rgb(185, 250, 255);
+.me {
+    max-width: 300px;
 }
