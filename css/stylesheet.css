@@ -56,9 +56,17 @@ footer {
 }
 a {
     color: #3a3335;
-    font-size: 2em;
-    font-style: normal;
+    font-size: 1.22em;
+    text-decoration: none;
 }
 .me {
     max-width: 300px;
+    border-radius: 10px;
+}
+.title {
+    padding: 10px;
+    margin: auto;
+}
+ul {
+    margin-left: 15%;
 }
