@@ -31,4 +31,8 @@
     footer {
 	max-width: 100%;
 }
+    header {
+        flex-flow: row wrap;
+        flex: 1 1 100%;
+    }
 }

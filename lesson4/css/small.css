@@ -18,6 +18,10 @@ footer {
     
 }
 
+.logo {
+    max-width: 250px;
+    margin: auto;
+}
 header,
 nav,
 main,
@@ -25,7 +29,7 @@ footer {
 	max-width: 767px;
 	margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     font-family: "Arial Black", Gadget, sans-serif
     display: block;
 }
@@ -34,7 +38,11 @@ h1 {
     color: #f9d522;
 }
 h2 {
+    font-family: 'rajdhani', sans-serif;
 	color: #b03825;
+}
+h3 {
+    color: #f9d522;
 }
 
 nav {
@@ -92,4 +100,7 @@ a {
 }
 .open li{
     display: block;
+}
+.inline {
+    display: inline;
 }
