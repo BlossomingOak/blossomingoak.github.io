@@ -22,16 +22,16 @@ footer {
     max-width: 128px;
     margin: auto;
 }
-header,
-nav,
+header {
+    max-width: 100%;
+}
 main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
 }
 h1, h2, h4, h5, h6 {
-    font-family: "Arial Black", Gadget, sans-serif
-    display: block;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 h1 {
     font-size: 2rem;
@@ -48,7 +48,8 @@ h3 {
 nav {
 	background-color: #b03825;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
+    box-shadow: 0 2px 15px gray;
+    max-width: 100%;
 }
 nav ul {
 	list-style-type: none;
@@ -106,3 +107,4 @@ a {
 }
 #name { margin: 0 auto;}
 #phrase { margin: 0 auto;}
+#pageTitle {margin: 20px;}
