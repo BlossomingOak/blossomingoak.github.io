@@ -1,0 +1,33 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+        font-size: 1.1rem;
+        display: flex;
+        flex: 1 1 100%;
+    }
+    .open li{
+        display: flex;
+    }
+    .navigation li:first-child {display:none;}
+    nav ul {
+        display: flex;
+        flex: 1 1 100%
+    }
+
+    nav ul li {
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    
+    
+    main {
+        line-height: 1.4;
+    }
+    
+    header {
+        flex-flow: row wrap;
+        flex: 1 1 100%;
+    }
+}
