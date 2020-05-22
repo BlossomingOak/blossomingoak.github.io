@@ -11,4 +11,10 @@ let date = thisDay + ", " + today.getDate() + " " + thisMonth + " " + today.getF
 document.getElementById("date").innerHTML = date; 
 
 
+if (thisDay == "Friday"){
+    document.getElementById("picnic").classList.add("message");
+    document.getElementById("picnic").classList.remove("picnic");
+
+}
+
 
