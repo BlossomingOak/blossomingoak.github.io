@@ -111,7 +111,7 @@ a {
     display: inline;
 }
 #name { margin: 0 auto;}
-#phrase { margin: 0 auto;}
+#phrase { margin: 0 auto; color: #bfc0c0;}
 #pageTitle {margin: 20px;}
 
 /* page title */
