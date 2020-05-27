@@ -1,1 +1,1 @@
- 
+ WebFont.load({google: {families: ['Rajdhani']}})
