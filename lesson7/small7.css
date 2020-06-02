@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+}
+picture {
+    margin: 20px;
+    border: solid 5px black;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
