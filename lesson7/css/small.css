@@ -127,7 +127,8 @@ main {
     grid-template-columns: 1fr;
     row-gap: 20px;
 }
-main picture {
+
+ div {
     
     margin: 0px auto;
     background-color: whitesmoke;
