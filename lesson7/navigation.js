@@ -13,20 +13,7 @@ let date = thisDay + ", " + today.getDate() + " " + thisMonth + " " + today.getF
 document.getElementById("date").innerHTML = date; 
 
 
-if (thisDay == "Friday"){
-    document.getElementById("picnic").classList.add("message");
-    document.getElementById("picnic").classList.remove("picnic");
 
-}
-
-for (i=1; i<=5; i++){
-    let id = "day" + i;
-    document.getElementById(id).innerHTML = days[x];
-    x++;
-    if (x > 6){
-        x = 0;
-    }
-}
 
 
 
