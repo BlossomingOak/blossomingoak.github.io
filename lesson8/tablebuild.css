@@ -12,11 +12,11 @@ table, th, td{
     
 }
 table {
-    
-    height: 350px;
+    max-width: 330px;
+    height: 344px;
     text-align: center;
     margin: 0px auto;
-    padding: 0px;
+    padding: -10px;
     font-family: "Ubuntu", sans-serif;
     box-shadow: 10px 10px 10px #628ca6;
     border-collapse: collapse;
@@ -39,4 +39,7 @@ thead, tfoot {
 tfoot {
     font-size: 12px;
     line-height: 30px;
+}
+#Italics {
+    font-style: italic;
 }
