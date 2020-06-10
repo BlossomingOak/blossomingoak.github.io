@@ -20,10 +20,10 @@ table {
     box-shadow: 10px 10px 10px #628ca6;
     border-collapse: collapse;
 }
-#red {
+.red {
     background-color: #E7F0ED;
 }
-#green {
+.green {
     background-color: #E7FEED;
 }
 thead, tfoot {
