@@ -17,4 +17,10 @@
        font-size: 1.5rem;
        
    }
+   #submitbutton {
+       margin: 20px;
+       padding: 20px;
+       height: 40px;
+       font-size: 1.5rem;
+   }
 }
