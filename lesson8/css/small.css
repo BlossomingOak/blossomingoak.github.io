@@ -118,7 +118,6 @@ input {
 textarea {
     width: 400px;
     height: 200px;
-    text-justify: top;
 }
 #submitButton {
     margin: 20px auto;
@@ -131,7 +130,6 @@ textarea {
 }
 legend {
     font-size: 2rem;
-    font-style: bold;
     color: #b03825;
     
 }
