@@ -2,7 +2,7 @@
 body {
 	font-size: 16px;
     font-family: "Sansita", Ubuntu, sans-serif;
-    background-color: #bfc0c0;
+    background-color: whitesmoke;
 }
 
 /* phone or baseline views **************************/
@@ -92,27 +92,6 @@ a {
     color: #3a3335;
 }
 
-.contentBox {
-    text-align: center;
-    display: block;
-    margin: 15px;
-    border: none;
-    padding: 10px;
-    box-sizing: border-box;
-    border: solid 1px black;
-}
-.responsive li{
-    display: block;
-}
-.open li{
-    display: block;
-}
-.inline {
-    display: inline;
-}
-#name { margin: 0 auto;}
-#phrase { margin: 0 auto; color: #bfc0c0;}
-#pageTitle {margin: 20px;}
 
 /* page title */
 #pageTitle {
@@ -121,90 +100,50 @@ a {
     padding: 10px;
 }
 
-/* Hero Div & Weather Summary */
-
-.herodiv {
-    margin: 10px auto;
-	position: relative;
-	height: 300px;
-	max-width: 400px;
-    border: none;
-    overflow: hidden;
-    box-shadow: 0 0 5px #111;
-}
-.weatherSummary {
-	position: absolute;
-	top: 25px;
-	left: 50px;
-	background: rgba(176, 56, 37, 90%);
-	border: 1px solid #b03825;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-    opacity: .8;
-    color: #f9d522;
-}
-.heroimg {
-    width: 100%;    
-}
-
-/*article */
-#article { 
-    background-color: #989999; 
-    border: none;
-    display: block;
-}
-.article {
-    
-    display: block;
-    line-height: 1.5em;
-    text-align: left;
-    text-indent: 25px;
-    
-}
-
-.articlepic{
-    max-height: 300px;
-    max-width: 100%;
-    display: block;
+fieldset {
     margin: 20px;
-    padding-right: 0px;
-    border-radius: 5px;
-    box-shadow: 0 0 15px #333;  
-    
+    background-color: whitesmoke;
+    border-color: #b03825
 }
-/* forecast box */
-#forecast {
-    display: none;
-}
-/*map */
-#map {
-    display: flex;
-    flex: 1 1 100%;
-    margin: auto;
-}
-#ci {
-    background-color: #333;
-    border-radius: 5px;
-    line-height: 2rem;
-
-}
-#contact {
+label {
+    margin: 10px;
+    display: block;
     text-align: left;
 }
-#contact h3 {
-    text-align: center;
-}
-/*picnic message */
-.picnic {
-    display: none;
-}
-.message{
+input {
     display: block;
-    text-align: center;
-    font-size: 1.5em;
-    background-color: #f9d522;
-    color: #333;
+    width: 80%;
+    font-size: 1.2rem;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    text-justify: top;
+}
+#submitButton {
+    margin: 20px auto;
+    font-size: 1.5rem;
     padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
+    border-radius: 20px;
+    background-color: #f9d522;
+    border: solid 1px #333;
+    color: #444;
+}
+legend {
+    font-size: 2rem;
+    font-style: bold;
+    color: #b03825;
+    
+}
+.danger {
+    font-size: 1.2rem;
+    
+    
+}
+#thanks {
+    font-size: 2em;
+    margin: 200px;
+    border: solid 5px #b03825;
+    padding: 30px;
+    text-align: center;
 }

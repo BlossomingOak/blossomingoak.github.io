@@ -7,37 +7,14 @@
     border-radius: 10px;
     max-width: 825px;
     }
-    #forecast {
-        display: flex;
-        flex: 1 1 100%;
-        border: none;
-        margin: auto;
-        max-width: 600px;
-        
+    label {
+        font-size: 1.5rem;
     }
-    .day {
-        display: flex;
-        flex: 1 1 100%;
-        flex-direction: column;
-        border: 1px solid black;
-        border-right: none;
-        background-color: lightblue;
-        text-align: center;
-    }
-    
-    #lastday {
-        border-right: 1px solid black;
-    }
-    
-    #article {
-       padding: 20px;
-       margin: 10px;
-       overflow: hidden;
-       display: flex;
-    }
-    .herodiv {
-        max-width: 650px;
-        max-height: 350px;
-    }
-  
+   input {
+       height:30px;
+   }
+   .danger {
+       font-size: 1.5rem;
+       
+   }
 }
