@@ -7,7 +7,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject["prophets"];
-  });
+  
 
 
 for (let i = 0; i < prophets.length; i++) { 
@@ -22,6 +22,10 @@ for (let i = 0; i < prophets.length; i++) {
     birthplace.textContent = prophets[i].birthplace;
     image.setAttribute('src', prophets[i].imageurl);
     card.appendChild(h2);
+    card.appendChild(birthdate);
+    card.appendChild(birthplace);
+    card.appendChild(image);
+    card.className = "card";
 
     document.querySelector('div.cards').appendChild(card);
-}
+}});
