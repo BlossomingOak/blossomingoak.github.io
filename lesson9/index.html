@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Harrison Spriggs' Assignment Portal for WDD 230">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png">
+    <Title>Harrison's Wonderful Weather</Title>
+    </head>
+    
+<body>
+<div id="wrapper">  
+<header>
+    
+    <picture><img class="logo" src="images/newlogo.png" alt="Weather Website Logo"></picture>
+  
+    <div class="header"><h1 id="name">Harrison's Wonderful Weather</h1>   
+<h2 id="phrase"> For all your weather needs.</h2></div>
+   
+</header>
+
+<nav>
+	<ul class="navigation" id="nav">
+        <li><a id="ham" onclick="toggleMenu()" > &#9776; Menu</a></li>
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#" >Preston Idaho</a></li>
+		<li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#" >Gallery</a></li>
+	</ul>
+</nav>
+
+<main>
+    <div id="cardsbox">
+        <div class="card" id="first"><picture >
+            <img src="images/Preston.png" alt="Preston Idaho">
+            </picture>
+            <div id="text" class="cardtext"><h2>Preston</h2> <em>Home of Napoleon Dynamite.</em>
+            <p>Year Founded: 1866</p>
+            <p> Population: 5204</p>
+            <p>Annual Rain Fall: 16.65</p>
+        </div></div>
+        <div class="card2" id="second"><picture >
+        <img src="images/Picture2.png" alt="Fish Haven">
+            </picture>
+            <div id="stext" class="cardtext"><h2>Fish Haven</h2> <em>This is Fish Heaven.</em>
+                <p>Year Founded: 1864</p>
+                <p> Population: 501</p>
+                <p>Annual Rain Fall: 14.2</p>
+            </div></div>
+        <div class="card" id="third"><picture >
+            <img src="images/Picture1.png" alt="Soda Springs">
+            </picture>
+            <div id="ttext" class="cardtext"><h2>Soda Springs</h2> <em>Historic Oregon Trail Oasis. The Soda is on Us.</em>
+                <p>Year Founded: 1858</p>
+                <p> Population: 2985</p>
+                <p>Annual Rain Fall: 15.75</p>
+            </div></div>
+        </div>
+        <picture id="long">
+            
+            <source srcset="images/cropfieldlarge.png" media="(min-width: 50em)">
+                <img src="images/cropfield.png" alt="Idaho Field" >
+           
+        
+        </picture>
+        <p id="longtext">Idaho is a beautiful place with such a diverse countryside. From Fish Haven to
+            Preston, we have a wide range of cultural achievements. Come visit soon, and don't 
+            forget to check the weather when you do!
+        </p>
+   
+    </main></div>
+    <div id="push"></div>
+<footer id="footer">
+    Harrison Spriggs | WDD 230 | Harrison's Wonderful Weather | 6/20/2020
+</footer>
+
+<script src="javascript.js"></script>
+</body>
+</html>

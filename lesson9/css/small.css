@@ -1,0 +1,155 @@
+/* new colors
+dark blue = #011627
+White = #fdffc
+light blue = #2ec4b6
+red = #e71d36
+orange yellow = ff9f1c */
+body {
+	font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
+    background-color: #fdfffc;
+}
+
+/* phone or baseline views **************************/
+
+/* basic website css */
+
+header,
+footer {
+	background-color: #011627;
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0px auto;
+    max-width: 100%;
+    
+}
+
+.logo {
+    max-width: 128px;
+    margin: auto;
+}
+h1, h2, h4, h5, h6 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    color: #2ec4b6;
+    text-align: center;
+}
+h2 {
+    font-family: 'rajdhani', sans-serif;
+	color: #e71d36;
+}
+h3 {
+    color: #f9d522;
+}
+
+nav {
+	background-color: #ff9f1c ;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+    max-width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navigation li:first-child {
+    display: block;
+}
+nav ul li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    color: #011627;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #2ec4b6;
+	color: black;
+}
+.active {
+    background-color: #fdfffc;
+}
+
+footer {
+	flex: 0 1 100%;
+    height: 2rem;
+    color: #fdfffc;
+}
+a {
+    color: #2ec4b6;
+}
+
+.responsive li{
+    display: block;
+}
+.open li{
+    display: block;
+}
+.inline {
+    display: inline;
+}
+#name { margin: 0 auto;}
+#phrase { margin: 0 auto; color: #fdfffc;}
+#pageTitle {margin: 20px;}
+
+/* page title */
+#pageTitle {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Main Content */
+main {
+max-width: 650px;
+margin: 0px auto;
+}
+footer {
+    max-width: 100%;
+}
+
+.card, .card2 {
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 10px #444;
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+.card img, .card2 img {
+    width: 90%;
+    max-width: 500px;
+}
+.cardtext {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+#long{
+    width: 100vw;
+    overflow: hidden;
+}
+#long img{
+    width: 100%;
+    max-height: 350px;
+}
+#longtext{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    padding: 15px;
+    box-shadow: 0px 5px 5px #999;
+    background-color: whitesmoke;
+}
