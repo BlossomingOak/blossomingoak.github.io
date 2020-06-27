@@ -176,6 +176,10 @@ a {
 #forecast {
     display: none;
 }
+.forcastimg {
+    width: 75px;
+    align-self: center;
+}
 /*map */
 #map {
     display: flex;

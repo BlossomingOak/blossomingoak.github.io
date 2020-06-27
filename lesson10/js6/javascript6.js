@@ -20,7 +20,7 @@ if (thisDay == "Friday"){
 }
 
 for (i=1; i<=5; i++){
-    let id = "day" + i;
+    let id = "dayname" + i;
     document.getElementById(id).innerHTML = days[x];
     x++;
     if (x > 6){

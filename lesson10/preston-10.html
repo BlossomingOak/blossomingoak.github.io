@@ -45,17 +45,22 @@
         </picture>
      <section class="weatherSummary">
      <h5 id="weatherSummary">Weather Summary</h5>
+     <p>Currently: <span id="current"></span></p>
+      <p>High: <span id="high"></span>  &#730; F</p>
+      <p>Wind Chill: <span id="windchill"></span> &#730; F</p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+      <p>Wind Speed: <span id="windspeed"></span> mph</p>
       
       
      </section>
     </div>
 
     <div class="contentBox" id="forecast">
-     <div class="day"> <span id="day1"></span> <img src="images/cloudy.png" alt="cloudy"> 75 &#730; F</div>
-    <div class="day" > <span id="day2"></span> <img src="images/cloudy.png" alt="cloudy"> 76 &#730; F</div> 
-    <div class="day"> <span id="day3"></span> <img src="images/rainy.png" alt="rainy"> 72 &#730; F</div>
-    <div class="day"> <span id="day4"></span> <img src="images/sunny.png" alt="sunny"> 83 &#730; F</div>
-     <div class="day" id="lastday"> <span id="day5"></span> <img src="images/sunny.png" alt="sunny"> 84 &#730; F </div> 
+     <div class="day"> <h3 id="dayname1"></h3> <img class="forcastimg" id = "dayimg1" src="images/cloudy.png" alt="cloudy"> <span id="day1"></span> </div>
+    <div class="day" > <h3 id="dayname2"></h3> <img class="forcastimg" id = "dayimg2" src="images/cloudy.png" alt="cloudy"> <span id="day2"></span>  </div> 
+    <div class="day"> <h3 id="dayname3"></h3></span> <img class="forcastimg" id = "dayimg3" src="images/rainy.png" alt="rainy"> <span id="day3"></span></div>
+    <div class="day"> <h3 id="dayname4"></h3> <img class="forcastimg" id = "dayimg4" src="images/sunny.png" alt="sunny"> <span id="day4"></span></div>
+     <div class="day" id="lastday"> <h3 id="dayname5"></h3> <img class="forcastimg" src="images/sunny.png" id = "dayimg5" alt="sunny"> <span id="day5"></span> </div> 
      </div>
 
     <div class="contentBox" id="article">
