@@ -1,0 +1,210 @@
+
+body {
+	font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
+    background-color: #fdfffc;
+}
+
+/* phone or baseline views **************************/
+
+/* basic website css */
+
+header,
+footer {
+	background-color: #011627;
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.logo {
+    max-width: 128px;
+    margin: auto;
+}
+header {
+    max-width: 100%;
+}
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h1, h2, h4, h5, h6 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    color: #2ec4b6;
+    text-align: center;
+}
+h2 {
+    font-family: 'rajdhani', sans-serif;
+	color: #e71d36;
+}
+h3 {
+    color: black;
+}
+
+nav {
+	background-color: #ff9f1c ;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+    max-width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navigation li:first-child {
+    display: block;
+}
+nav ul li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    color: #011627;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #2ec4b6;
+	color:black;
+}
+.active {
+    background-color: #fdfffc;
+}
+
+footer {
+	flex: 0 1 100%;
+    height: 2rem;
+    color: #fdfffc;
+}
+a {
+    color: #2ec4b6;
+}
+
+.contentBox {
+    text-align: center;
+    display: block;
+    margin: 15px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+.responsive li{
+    display: block;
+}
+.open li{
+    display: block;
+}
+.inline {
+    display: inline;
+}
+#name { margin: 0 auto;}
+#phrase { margin: 0 auto; color: #bfc0c0;}
+#pageTitle {margin: 20px;}
+
+/* page title */
+#pageTitle {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hero Div & Weather Summary */
+
+.herodiv {
+    margin: 10px auto;
+	position: relative;
+	height: 300px;
+	max-width: 400px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 0 5px #111;
+}
+.weatherSummary {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	background: rgba(176, 56, 37, 90%);
+	border: 1px solid #b03825;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+    opacity: .8;
+    color: #ff9f1c;
+}
+.heroimg {
+    width: 100%;    
+}
+
+/*article */
+#article { 
+    background-color: #f1f1f1; 
+    border: none;
+    display: block;
+}
+.article {
+    
+    display: block;
+    line-height: 1.5em;
+    text-align: left;
+    text-indent: 25px;
+    
+}
+
+.articlepic{
+    max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 20px;
+    padding-right: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #333;  
+    
+}
+/* forecast box */
+#forecast {
+    display: none;
+}
+/*map */
+#map {
+    display: flex;
+    flex: 1 1 100%;
+    margin: auto;
+}
+#ci {
+    background-color: #2ec4b6;
+    border-radius: 5px;
+    line-height: 2rem;
+
+}
+#contact {
+    text-align: left;
+}
+#contact h3 {
+    text-align: center;
+}
+/*picnic message */
+.picnic {
+    display: none;
+}
+.message{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #2ec4b6;
+    color: #fdfffc;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
