@@ -1,0 +1,40 @@
+@media only screen and (min-width: 75em) {
+    main {
+        max-width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    
+    div:hover {
+        box-shadow: 0 15px 30px black;
+        
+    }
+    p {
+        display: block;
+        
+    } 
+    nav a {
+        font-size: 1.1rem;
+        display: flex;
+        flex: 1 1 100%;
+    }
+    .open li{
+        display: flex;
+    }
+    .navigation li:first-child {display:none;}
+    nav ul {
+        display: flex;
+        flex: 1 1 100%
+    }
+
+    nav ul li {
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    }
+ 

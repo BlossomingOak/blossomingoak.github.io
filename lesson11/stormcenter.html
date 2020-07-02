@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Harrison Spriggs' Assignment Portal for WDD 230">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+        <link rel="icon" href="../lesson7/favicon.ico">
+    <Title>Harrison's Wonderful Weather</Title>
+    </head>
+    
+<body>
+    
+<header>
+    
+    <picture><img class="logo" src="../lesson7/weatherWebsiteLogo.png" alt="Weather Website Logo"></picture>
+  
+    <div class="header"><h1 id="name">Harrison's Wonderful Weather</h1>   
+<h2 id="phrase"> For all your weather needs.</h2></div>
+   
+</header>
+
+<nav>
+	<ul class="navigation" id="nav">
+        <li><a id="ham" onclick="toggleMenu()" > &#9776; Menu</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="preston.html" >Preston Idaho</a></li>
+		<li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#" class="active">Storm Center</a></li>
+        <li><a href="gallery.html" >Gallery</a></li>
+	</ul>
+</nav>
+<h1 id="pageTitle"> Gallery</h1>
+<main>
+        <form action="thanks.html" method="GET">
+          <fieldset>
+            <legend>Your Information</legend>
+          <label for="Uname">Name:
+            <input type="text" id="Uname" name="user_name" required="required">
+          </label>
+          
+        
+        
+          <label for="mail">E-mail:
+            <input type="email" id="mail" name="user_mail" required="required" placeholder="demoemail@email.com">
+          </label>
+          
+        
+          <label for="phone">Phone Number:
+            <input type="tel" id="phone" name="phone_number" required="required">
+          </label>
+          
+        
+            <label for="zipcode">Zipcode:
+                <input type="number" id="zipcode" name="zip_code" required="required">
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Storm Information</legend>
+        
+            <label for="stormdate">Storm Date:
+                <input type="date" id="stormdate" name="storm_date"> 
+            </label>
+            <label> Storm Type:
+                <input list="stormType" name="stormType">
+                <datalist id="stormType">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            </label>
+            <label class="severity" for="rating">
+                "Storm Severity (1 -10):"
+                <input type="range" value="5" step="1" name="severity"
+                id="rating" min="1" max="10" oninput="adjust(this.value)" onchange=
+                "adjust(this.value)" /><span id="ratingvalue">5</span>
+            </label>
+            <label>Storm Region:
+                <select name="region">
+                    <option value="">Select Region &#9660;</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                </select>
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Comments</legend>
+            <div>Are you in danger?</div>
+            
+                <label class="danger" for="choices"><input type="radio" name="choices" value="Yes" checked="checked">Yes<span class="checkmark"></span></label>
+                <label class="danger" for="choices"><input type="radio" name="choices" value="No" checked="checked">No</label>
+                <label class="danger" for="choices"><input type="radio" name="choices" value="Maybe" checked="checked">Maybe</label>
+            
+
+            <label>Comments
+                <textarea name="comments" placeholder="Additional Information Here..."> </textarea> 
+            </label>
+        </fieldset>
+        <div><input type="submit" value="Submit Storm Report" id="submitButton"></div>
+        
+        </form>
+   
+</main>
+<footer>
+	&copy; <div class="inline" id="date"> Today's Date </div> &nbsp;  &nbsp; Harrison Spriggs &nbsp;  &nbsp; Brigham Young University-Idaho
+</footer>
+<script src ="stormcenter.js"></script>
+</body>
+</html>
