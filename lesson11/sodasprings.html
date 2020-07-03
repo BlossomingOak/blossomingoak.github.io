@@ -14,7 +14,7 @@
     </head>
     
 <body onload ="windChill()">
-    <div id="picnic" class="picnic" onload="picnic()"> Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>   
+      
 <header>
     
     <picture><img class="logo" src="images/newLogo.png" alt="Weather Website Logo"></picture>
@@ -28,20 +28,19 @@
 	<ul class="navigation" id="nav">
         <li><a id="ham" onclick="toggleMenu()" > &#9776; Menu</a></li>
 		<li><a href="index.html">Home</a></li>
-		<li><a href="#" class="active">Preston Idaho</a></li>
-		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="preston.html" >Preston Idaho</a></li>
+		<li><a href="#" class="active">Soda Springs</a></li>
         <li><a href="fishhaven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
 	</ul>
 </nav>
 <main>
-    <h1 id="pageTitle"> Preston Idaho</h1>
+    <h1 id="pageTitle"> Soda Springs</h1>
     <div class="herodiv">
          <picture >
-             <source srcset="images/prestonMedium.png" media="(min-width: 46em) and (max-width: 59.99em)">
-             <source srcset="images/prestonidaho.jpg" media="(min-width: 60em)">
-             <img src="images/prestonSmall.png" class="heroimg" alt="Preston Idaho">
+            
+             <img src="images/Picture1.png" class="heroimg" alt="Soda Springs">
         </picture>
      <section class="weatherSummary">
      <h5 id="weatherSummary">Weather Summary</h5>
@@ -65,28 +64,26 @@
 
     <div class="contentBox" id="article">
         <div class="article"> <h2> Article </h2>
-            Preston Idaho is a small snowy town next to a river. Yes, there are men here, but this is not where
-            the man from snowy river came from. This is, however, home of a very unusual coincidence. 82% of all 
-            boys who live in this town share the same name. No, it is not Preston. It's Lewis. Yes, it's true, I 
-            am not making this up. 28% of all boys who live in this town is named Luis. Wait, did I mess that statistic up?
-            Oh well, that's not the point of this article. The point of this article is to inform you that... (read more)
-    
+           Soda springs is named after a beautiful natural hot spring located 30 miles south of the interstate. No, this hot spring
+           does not spout Dr. Pepper or Mtn Dew, it is purely Diet Coke. There is a Coca-Cola factory 3 miles away, and some people believe
+           that this soda spring was made due to illegal waste dumpage. That is simply not true. The soda spring was here long before Coca-cola 
+           moved to town, and it is the sole reason that they are still in business. Long ago, in 1953, Coca-cola was on the verge of bankrupcy... (read more)
         </div>
-        <img src="images/snowyroad.webp" class="articlepic" alt="snowy road">
+        <img src="images/gallery8.png" class="articlepic" alt="road at dusk">
          </div>
     <div class="contentBox" id="contact"><h3 id="ci">Contact Information</h3> 
         <ul>
             <li> Phone: (208) 123-4567</li>
-            <li> Email: prestonidahoweather@gmail.com</li>
+            <li> Email: sodaspringsweather@gmail.com</li>
         </ul>
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28163.73619399447!2d-111.9033210029279!3d42.10001505535372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590175225846!5m2!1sen!2sus" 
-        width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
-<div id="prestonevent" class="events"></div>
-    </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.9129900726!2d-111.62379142127332!3d42.66147063499639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1593746733189!5m2!1sen!2sus"
+         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+         <div id="prestonevent" class="events"></div>
+        </main>
 <footer>
 	&copy; <div class="inline" id="date"> Today's Date </div> &nbsp;  &nbsp; Harrison Spriggs &nbsp;  &nbsp; Brigham Young University-Idaho
 </footer>
-<script src="javascript/weatherapi.js"></script>
+<script src="javascript/weatherapisoda.js"></script>
 <script src="javascript/menu.js"></script>
 <script src ="javascript/windchill.js"></script>
 </body>

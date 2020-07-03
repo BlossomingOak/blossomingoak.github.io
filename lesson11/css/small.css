@@ -166,7 +166,7 @@ a {
     max-height: 300px;
     max-width: 100%;
     display: block;
-    margin: 20px;
+    margin: 20px auto;
     padding-right: 0px;
     border-radius: 5px;
     box-shadow: 0 0 15px #333;  
@@ -263,4 +263,12 @@ legend {
     border: solid 5px #b03825;
     padding: 30px;
     text-align: center;
+}
+
+.events {
+    width: 500px;
+    margin: 20px auto;
+    background-color: #2ec4b6;
+    border: solid 1px black;
+
 }
