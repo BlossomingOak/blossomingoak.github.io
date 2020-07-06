@@ -163,7 +163,7 @@ span a{
     padding: 10px;
     color: #e71d36;
     font-size: 1.5em;
-    font-style: none;
+    font-style: normal;
 }
 span a:hover {
     color: #011627;
