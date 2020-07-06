@@ -15,11 +15,9 @@ for (let i = 0; i < 3; i++) {
     if(i==0){
         var x=4;
         var id= '#first';
-        var eventid = '#prestonevent';
     } else if (i == 1){
         var x = 1;
         var id = '#second';
-        var eventid = 'fishevent';
     } else {
         var x = 5;
         var id = '#third';
@@ -30,15 +28,12 @@ for (let i = 0; i < 3; i++) {
     let yearFounded = document.createElement('p');
     let currentPopulation = document.createElement('p');
     let averageRainfall = document.createElement('p');
-    
 
     name.textContent = town[x].name;
     motto.textContent = town[x].motto;
     yearFounded.textContent = 'Year Founded: ' + town[x].yearFounded;
     currentPopulation.textContent = 'Population: ' + town[x].currentPopulation;
     averageRainfall.textContent = 'Average Rainfall' + town[x].averageRainfall;
-    
-   
     cardtext.appendChild(name);
     cardtext.appendChild(motto);
     cardtext.appendChild(yearFounded);

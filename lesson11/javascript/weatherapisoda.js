@@ -2,7 +2,7 @@ function inFarenheight(temp){
     x = (temp * (9/5)) - 459.67;
     return x.toFixed(1);
 }
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=44a5f82f2808279f5247f34b8c95a2bf';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=44a5f82f2808279f5247f34b8c95a2bf';
     fetch(apiURL)
         .then((response) => response.json())
         .then((jsObject) => {
@@ -19,7 +19,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
             let windspeed = document.getElementById("windspeed").textContent = jsObject.wind.speed;
         });
 
-const ForecastapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=44a5f82f2808279f5247f34b8c95a2bf';
+const ForecastapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=44a5f82f2808279f5247f34b8c95a2bf';
     fetch(ForecastapiURL)
         .then((response) => response.json())
         .then((jsObject) => {
