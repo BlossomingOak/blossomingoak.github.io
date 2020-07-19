@@ -1,0 +1,20 @@
+
+@media only screen and (min-width: 52em) {
+
+    
+    main {
+    border-radius: 15px;
+    max-width: 600px;
+    }
+    h1{
+        line-height: 30px;
+    }
+    h2, #callToAction{
+        line-height: 60px;
+    }
+    #fakebutton{
+        padding: 10px;
+    }
+    p{ font-size: 3vw;}
+  
+}
