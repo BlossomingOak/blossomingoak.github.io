@@ -34,7 +34,6 @@ footer {
 }
 #heroImg{
     width: 100%;
-
     overflow: hidden;
 }
 #pageTitle{
@@ -86,6 +85,7 @@ nav {
 	text-align: center;
     box-shadow: 0 2px 15px gray;
     max-width: 100%;
+    margin-bottom: 5px;
 }
 nav ul {
 	list-style-type: none;
