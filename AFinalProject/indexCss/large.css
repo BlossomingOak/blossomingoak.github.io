@@ -29,6 +29,7 @@
         
     }
     #fakebutton { padding: 30px;}
-    p {font-size: 2vw;}
+    
+    .text {font-size: 26px;}
     
 }

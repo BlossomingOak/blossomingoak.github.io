@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="indexCss//medium.css">
         <link rel="stylesheet" href="indexCss//large.css">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
-        <link rel="icon" href="images/favicon.png">
+        <link rel="icon" href="../images/favicon.png">
     <Title>Scoot Rental Company</Title>
     </head>
     
@@ -20,23 +20,39 @@
         <ul class="navigation" id="nav">
             <li><a id="ham" onclick="toggleMenu()" > &#9776; Menu</a></li>
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="aboutUs.html" >About Us</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
-            <li><a href="rent.html">Rental Options</a></li>
-            <li><a href="reservations.html">Reserve Your Ride Today</a></li>
-            <li><a href="tours.html">Tours</a></li>
+            <li><a href="html/aboutUs.html" >About Us</a></li>
+            <li><a href="html/rent.html">Rental Options</a></li>
+            <li><a href="html/tours.html">Tours</a></li>
+            <li><a href="html/reservations.html">Reserve Your Ride Today</a></li>
+            
             
         </ul>
     </nav>
     
    
 </header>
-<picture class="mainImage"><img id ="heroImg" src="mainImage.png" alt="Teal Scooter on a road"> <div id="pageTitle">
-    <h1>Scoot.</h1><div id="fakebutton"><a href="rent.html" id="callToAction" >Rent your ride Today!</a></div></div></picture>
+<picture class="mainImage"><img id ="heroImg" src="images/mainImage.png" alt="Teal Scooter on a road"> <div id="pageTitle">
+    <h1>Scoot.</h1><div id="fakebutton"><a href="html/reservations.html" id="callToAction" >Rent your ride Today!</a></div></div></picture>
 <main>
-    <div id="text1"> Go see our beautiful city paragraph</div>
+    <section class="weatherSummary">
+        <h5 id="weatherSummary">Weather Summary</h5>
+        <p>Currently: <span id="current"></span></p>
+         <p>High: <span id="high"></span>  &#730; F</p>
+         <p>Wind Chill: <span id="windchill">N/A</span> &#730; F</p>
+         <p>Humidity: <span id="humidity"></span>%</p>
+         <p>Wind Speed: <span id="windspeed"></span> mph</p>
+        </section>
+    <div class="text"> Come and see our beautiful island paradise! Whether you want to cruise along the white sand beaches or go off-roading 
+        in the mountain peaks; you can rent from us! Go drive down historical La Calle Cinco and see the stunning architecture from the 17th century. 
+        If you are visiting on a cruise ship, come to your southern location near Terminal Puerta Maya. If you are on the North end of the island 
+        come over to the Playa del Carmen-Cozumel Ferry dock and see our original location. No matter what you are here for, we can provide you with 
+        the best rental options in all of Cozumel!
+    </div>
 <div class="pictures"> <img src="images/cityStreet.png"> </div>
-<div id="text2"> Wide variety of rental options paragraph</div>
+<div class="text"> We offer a variety of vehicles to best meet your needs. Going for a solo ride down main street? Try our Honda Metro Scooter. 
+    Do you want a romantic cruise down to La Table del Amor restaurant? Our Honda Dio or PCX150 would be perfect for you and your lovely date.
+     Did you want a little more action, maybe get some sand in the tires? We have ATVs, 2-door, and 4-door jeeps that would be perfect! 
+     Whatever you need, we can help.</div>
 <div class="pictures"> <img src="images/redScooter.png"></div>
 <div class="pictures"> <img src="images/rentalcar.png"></div>
 </main>
@@ -44,7 +60,7 @@
     Scoot Rental Company | 7/2020 | <a href="https://www.termsofusegenerator.net/live.php?token=AKFMZUQclNKvoALh8Ow3d4VpPjKV32An">
          Terms of Service </a> | Follow us on <a href="https://www.facebook.com"> Facebook</a>
 </footer>
-
-<script src="menu.js"></script>
+<script src="javascript/weather.js"></script>
+<script src="javascript/menu.js"></script>
 </body>
 </html>
