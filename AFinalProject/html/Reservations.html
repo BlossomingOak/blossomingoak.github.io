@@ -35,6 +35,18 @@
 
 
 <main>
+    <h4>Some things to know:</h3> 
+    <ul id="reservationList">
+        <li> A $50 security deposit is required to confirm reservations</li>
+        <li> No one under 12 years of age are allowed to ride on the scooters</li>
+        <li> Fuel Charge not included</li>
+        <li> Liability insurance is FREE</li>
+        <li> Free delivery to Cozumel hotel, Airbnb, or private residence for 2+day rentals</li>
+        <li> Payment via Google Pay, cash, credit card, debit card, or PayPal</li>
+        <li> Rentals may be returned to either location</li>
+    </ul>
+    
+    </p>
     <form action="thanks.html" method="GET">
         <fieldset>
           <legend>Your Information</legend>
@@ -75,8 +87,14 @@
           <label for="days">Days Needed:
               <input type="number" id="days" name="days" placeholder="1/2,  1,  2,  etc.">
           </label>
+          <label for="location"> Location Wanted
+              <select name="location">
+                  <option value="location1">Playa del Carmen-Ferry dock</option>
+                  <option value="location2">Terminal Puerta Maya</option>
+              </select>
+          </label>
           <label>Vehicle:
-              <select name="region">
+              <select name="Make/Model">
                   <option value="">Select Vehicle &#9660;</option>
                   <option value="Honda Metro Scooter">Honda Metro Scooter</option>
                   <option value="Honda Dio Scooter">Honda Dio Scooter</option>

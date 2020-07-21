@@ -1,5 +1,6 @@
 @media only screen and (min-width: 76em) {
     h2, #callToAction{ line-height: 80px;}
+    h4 {font-size: 30px;}
     nav a {
         font-size: 1.1rem;
         display: flex;
