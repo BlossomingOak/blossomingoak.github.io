@@ -23,7 +23,7 @@ footer {
     position: relative;
     text-align: center;
     color: white;
-    max-height: 500px;
+    max-height: 100vh;
     overflow: hidden;
 }
 #heroImg{
@@ -32,7 +32,7 @@ footer {
 }
 #pageTitle{
     position: absolute;
-    bottom: 50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-left: 40%;
@@ -140,8 +140,9 @@ a {
 
 /* Main Content */
 main {
-max-width: 500px;
+max-width: 520px;
 margin: 0px auto;
+padding: 10px;
 }
 footer {
     max-width: 100%;
