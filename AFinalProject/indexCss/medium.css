@@ -15,6 +15,9 @@
     #fakebutton{
         padding: 10px;
     }
-    
+    #rentinfo {
+        font-size: 2.1rem;
+        color: black;
+        }
   
 }

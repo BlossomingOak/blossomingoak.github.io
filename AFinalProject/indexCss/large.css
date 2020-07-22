@@ -34,10 +34,19 @@
     .text {font-size: 26px;}
     .maps {display: grid;
         grid-template-columns: 1fr 1fr;}
-        }
+        
     .map {
         border: solid 1px black;
         margin: 20px auto;
         text-align: center;
     background-color: whitesmoke;}
+    #rentid {
+        max-width: 70%;
+    }
+    #rentinfo {
+    font-size: 2.5rem;
+    color: #3affba;
+    -webkit-text-stroke-color: #636b66;
+    -webkit-text-stroke-width: 1px;
+    }
 }
