@@ -161,19 +161,27 @@ footer {
 
 
 fieldset {
+    display: flex;
+    flex-direction: row;
     margin: 20px;
     background-color: whitesmoke;
     border-color: #2ec4b6;
+    padding: .5em;
+    flex: 1 1 100%;
 }
 label {
     margin: 10px;
-    display: block;
-    text-align: left;
+    flex: 1 1 100%;
+    display: flex;
+    justify-self: flex-start;
+    margin-right: .5em;
 }
 input {
-    display: block;
-    width: 80%;
+    display: flex;
+    flex: 1;
+    justify-self: flex-end;
     font-size: 1.2rem;
+    margin-left: .5em;
 }
 textarea {
     width: 400px;
@@ -229,4 +237,8 @@ h5 {color:black;}
     width: 200px;
     padding-left: 10px;
     box-shadow: 0px 15px 15px #636b66;
+}
+.select {
+    margin-left: .5em;
+    flex: 1;
 }
