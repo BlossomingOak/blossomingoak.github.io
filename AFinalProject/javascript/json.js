@@ -1,4 +1,4 @@
-const requestURL = 'rental.json';
+const requestURL = 'https://blossomingoak.github.io/AFinalProject/javascript/rental.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  
-    const town = jsonObject["towns"];
+    const Rental = jsonObject["Rentals"];
   
 
 
@@ -15,19 +15,19 @@ for (let i = 0; i < 6; i++) {
     
     
     let cardtext = document.createElement('div');
-    let name = document.createElement('h2');
+    let name = document.createElement('h6');
     let max = document.createElement('p');
     let halfdayres = document.createElement('p');
     let fulldayres = document.createElement('p');
     let halfdaywalkin = document.createElement('p');
     let fulldaywalkin = document.createElement('p');
 
-    name.textContent = 'Vehicle: ' + town[x].name;
-    max.textContent = 'Max Persons: ' + town[x].max;
-    halfdayres.textContent = 'Half Day Reserved Price: ' + town[x].halfdayres;
-    fulldayres.textContent = 'Full Day Reserved Price: ' + town[x].fulldayres;
-    halfdaywalkin.textContent = 'Half Day Walk-In Price: ' + town[x].halfdaywalkin;
-    fulldaywalkin.textContent = 'Full Day Walk-In Price: ' + town[x].fulldaywalkin;
+    name.textContent = 'Vehicle: ' + Rental[i].name;
+    max.textContent = 'Max Persons: ' + Rental[i].max;
+    halfdayres.textContent = 'Half Day Reserved Price: ' + Rental[i].halfdayres;
+    fulldayres.textContent = 'Full Day Reserved Price: ' + Rental[i].fulldayres;
+    halfdaywalkin.textContent = 'Half Day Walk-In Price: ' + Rental[i].halfdaywalkin;
+    fulldaywalkin.textContent = 'Full Day Walk-In Price: ' + Rental[i].fulldaywalkin;
    
     cardtext.appendChild(name);
     cardtext.appendChild(max);
@@ -37,5 +37,5 @@ for (let i = 0; i < 6; i++) {
     cardtext.appendChild(fulldaywalkin);
     cardtext.className = "cardtext";
 
-    document.querySelector(id).appendChild(cardtext);
+    document.querySelector('#vehicleinfo').appendChild(cardtext);
 }});
