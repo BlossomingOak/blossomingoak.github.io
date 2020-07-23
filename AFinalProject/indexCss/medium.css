@@ -19,5 +19,7 @@
         font-size: 2.1rem;
         color: black;
         }
-  
+  #logo {
+      width: 300px;
+  }
 }
